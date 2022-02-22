@@ -7,7 +7,7 @@ def bruteforcer():
     chars = string.printable[:-6]
     print(chars)
     session = requests.session()
-    url = "http://128.238.62.229:2002/auth/login"
+    url = "url goes here"
     database_name = ""
     while True:
         for char in chars:
